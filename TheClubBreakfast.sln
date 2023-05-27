@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheClubBreakfast.Contracts", "TheClubBreakfast.Contracts\TheClubBreakfast.Contracts.csproj", "{06B5DEDD-439C-4876-84EB-81CF23DFF0C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheClubBreakfast", "TheClubBreakfast\TheClubBreakfast.csproj", "{463CBA94-E687-4FE9-9205-4A139CAEE9A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requests", "Requests", "{1517F907-EAE7-4055-82ED-90FD2D710353}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Breakfast", "Breakfast", "{7A4AF904-36E8-4B35-B508-9E0BAA614199}"
+	ProjectSection(SolutionItems) = preProject
+		Requests\Breakfast\CreateBreakfastRequest.http = Requests\Breakfast\CreateBreakfastRequest.http
+		Requests\Breakfast\DeleteBreakfastRequest.http = Requests\Breakfast\DeleteBreakfastRequest.http
+		Requests\Breakfast\GetBreakfastRequest.http = Requests\Breakfast\GetBreakfastRequest.http
+		Requests\Breakfast\UpsertBreakfast.http = Requests\Breakfast\UpsertBreakfast.http
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{FE7B69BF-79CF-4C4F-BFB3-1AAA1FD97526}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\API.md = Docs\API.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06B5DEDD-439C-4876-84EB-81CF23DFF0C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B5DEDD-439C-4876-84EB-81CF23DFF0C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B5DEDD-439C-4876-84EB-81CF23DFF0C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B5DEDD-439C-4876-84EB-81CF23DFF0C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{463CBA94-E687-4FE9-9205-4A139CAEE9A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{463CBA94-E687-4FE9-9205-4A139CAEE9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{463CBA94-E687-4FE9-9205-4A139CAEE9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{463CBA94-E687-4FE9-9205-4A139CAEE9A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A4AF904-36E8-4B35-B508-9E0BAA614199} = {1517F907-EAE7-4055-82ED-90FD2D710353}
+	EndGlobalSection
+EndGlobal

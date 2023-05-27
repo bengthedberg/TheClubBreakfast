@@ -1,0 +1,21 @@
+< {%
+    request.variables.set("id", "21f36fd1-2cf9-4df2-bbdb-7bd62a4a3657")
+%}
+PUT https://localhost:7238/api/breakfasts/{{id}}
+Content-Type: application/json
+
+{
+    "name": "Vegan Sunshine 23",
+    "description": "Vegan everything! Join us for a healthy breakfast..",
+    "startDateTime": "2022-04-08T08:00:00",
+    "endDateTime": "2022-04-08T11:00:00",
+    "savory": [
+        "Oatmeal",
+        "Avocado Toast",
+        "Omelette",
+        "Salad"
+    ],
+    "Sweet": [
+        "Cookie"
+    ]
+}

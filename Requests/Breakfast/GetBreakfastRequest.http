@@ -1,0 +1,4 @@
+< {%
+    request.variables.set("id", "21f36fd1-2cf9-4df2-bbdb-7bd62a4a3657")
+%}
+GET https://localhost:7238/api/breakfasts/{{id}}
